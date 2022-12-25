@@ -8,6 +8,4 @@ import org.springframework.stereotype.Service;
 public class SubscriptionService {
     @Autowired
     SubscriptionRepository repository;
-
-
 }

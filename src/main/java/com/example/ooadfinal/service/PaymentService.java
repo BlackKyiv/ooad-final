@@ -1,6 +1,6 @@
 package com.example.ooadfinal.service;
 
-import com.example.ooadfinal.model.Card;
+import com.example.ooadfinal.entity.Card;
 import org.springframework.stereotype.Service;
 
 @Service

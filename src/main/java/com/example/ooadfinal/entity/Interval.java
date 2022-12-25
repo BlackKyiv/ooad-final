@@ -1,4 +1,4 @@
-package com.example.ooadfinal.model;
+package com.example.ooadfinal.entity;
 
 public enum Interval {
     YEARLY, MONTHLY

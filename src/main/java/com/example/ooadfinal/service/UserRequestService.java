@@ -1,7 +1,9 @@
 package com.example.ooadfinal.service;
 
-import com.example.ooadfinal.model.Card;
-import com.example.ooadfinal.service.basic.SubscriptionService;
+import com.example.ooadfinal.entity.Card;
+import com.example.ooadfinal.service.basic.InvoiceService;
+import com.example.ooadfinal.service.basic.TariffService;
+import com.example.ooadfinal.service.basic.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -12,16 +14,16 @@ import org.springframework.stereotype.Service;
 public class UserRequestService {
 
     @Autowired
-    SubscriptionService subscriptionService;
+    TariffService tariffService;
+
+    @Autowired
+    UserService userService;
+
+    @Autowired
+    InvoiceService invoiceService;
 
     @Autowired
     PaymentService paymentService;
-
-    public void registerUser(String[] args) {
-    }
-
-    public void deleteUser(String userId) {
-    }
 
     public void subscribeUserTo(String userId, String tariffId, boolean automaticPay, Card card) {
     }

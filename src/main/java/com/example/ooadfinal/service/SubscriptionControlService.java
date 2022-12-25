@@ -6,6 +6,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
 
+
+/**
+ * Service sets scheduled tasks for updating statuses, generating new invoices and trying to pay for them
+ */
 @Service
 public class SubscriptionControlService {
 
